@@ -51,8 +51,16 @@ For Reticulum to grow however, compiled implementations need contributions and i
 
 ## More Information
 
+### Protocol
+
 * https://reticulum.network - Core Protocol
-* https://unsigned.io/rnode/ - Original RNode ESP32 "modem"
-* https://github.com/jrl290/RNodeTHV4 - Self contained boundary node for Heltec v3, v4.
 * https://directory.rns.recipes - Map of known public interfaces
 * https://rmap.world - Map of instances
+
+### Nodes
+* https://unsigned.io/rnode/ - Original RNode ESP32 "modem"
+* https://github.com/jrl290/RNodeTHV4 - Self contained boundary node for Heltec v3, v4.
+
+### Applications
+* https://github.com/torlando-tech/columba - Columba messenger for Reticulum
+* https://github.com/markqvist/NomadNet - Nomad network (BBS, chat, terminal based)
