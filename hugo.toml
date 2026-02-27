@@ -1,3 +1,49 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ghostmesh.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Ghost Mesh'
+theme = "bearcub"
+
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+[markup]
+  [markup.highlight]
+    lineNos = true
+    lineNumbersInTable = false
+    # This allows Bear Cub to use a variation of Dracula that is more accessible
+    # to people with poor eyesight. For more information about color contrast
+    # and accessibility, see https://web.dev/color-and-contrast-accessibility/
+    noClasses = false
+
+
+[params]
+  description = "Bear Cub Demo"
+  favicon = "images/favicon.png"
+  images = ["images/ghostmesh.png"]
+  title = "Ghost Mesh"
+  dateFormat = "2006-01-02"
+  hideUntranslated = false
+
+  # (EXPERIMENTAL) This theme has two options for its CSS styles: "original" and
+  # "herman". The former is what you see on Bear Cub's demo (an optimized
+  # version of Hugo Bear Blog), while the latter has a more modern look based on
+  # Herman Martinus's version of the Blogster Minimal theme for Astro.
+  themeStyle = "original"
+
+  # (EXPERIMENTAL) This theme is capable of dynamically generating social cards
+  # for posts that don't have `images` defined in their front matter; By setting
+  # `generateSocialCard` to false, you can prevent this behavior. For more
+  # information see layouts/partials/social_card.html
+  generateSocialCard = true
+
+  # Social media. Delete any item you aren't using to make sure it won't show up
+  # in your website's metadata.
+  [params.social]
+    twitter = "example" # Twitter handle (without '@')
+    facebook_admin = "0000000000" # Facebook Page Admin ID
+
+  # Author metadata. This is mostly used for the RSS feed of your site, but the
+  # email is also added to the footer of each post. You can hide the "reply to"
+  # link by using a `hideReply` param in front matter.
+  [params.author]
+    name = "John Doe" # Your name as shown in the RSS feed metadata
+    email = "me@example.com" # Added to the footer so readers can reply to posts
