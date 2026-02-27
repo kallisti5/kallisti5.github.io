@@ -46,7 +46,7 @@ Reticulum is designed to work reliably in open, trustless environments.  Users c
 
 ## So how do we do it?
 
-Reticulum is feature complete in a drafted standard, and a python implementation.
+Reticulum is feature complete in a drafted standard predating Meshtastic, and has a complete python-based router implementation.
 For Reticulum to grow however, compiled implementations need contributions and improvements. C, Go, Rust.
 
 ## More Information
